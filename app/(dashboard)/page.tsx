@@ -3,8 +3,6 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-   <Button variant={"green"}>
-    Click Me
-   </Button>
+    <p>Ths is an authenticated route</p>
   );
 }

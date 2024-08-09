@@ -1,12 +1,13 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-[clerk.com](clerk.com)
+[clerk.com](https://clerk.com)
 
 ## Getting Started
 
 #### .env.local
 ```
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_PUBLISHABLE_KEY=
 CLERK_SECRET_KEY=
 NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
 NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up

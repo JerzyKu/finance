@@ -8,10 +8,10 @@ type Props = {
 function DashboardLayout({children}: Props) {
   return (
     <>
-    <Header />
-    <main className='px-3 lg:px-14'>
-        {children}
-    </main>
+      <Header />
+      <main className='px-3 lg:px-14'>
+          {children}
+      </main>
     </>
   )
 }

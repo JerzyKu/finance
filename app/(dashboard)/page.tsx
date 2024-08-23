@@ -5,8 +5,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-    <p>Ths is an authenticated route</p>
-    <UserButton />
+      <p>Ths is an authenticated route</p>
     </>
   );
 }
